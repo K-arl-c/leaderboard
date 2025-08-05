@@ -125,6 +125,7 @@ const Leaderboard = () => {
                         <div>{soloQueue.totalLPGained}</div>
                     </div>
                     <div>
+                        {soloQueue.wins + soloQueue.losses} Played -{" "}
                         {soloQueue.wins}W / {soloQueue.losses}L -{" "}
                         {(
                             (soloQueue.wins /

@@ -2,51 +2,51 @@
     {
       "name": "Karl",
       "id": "M7dNC2aCAjSxG7FXPaoKXrvc5VbAPS0vMZRmO48mI9ryU7Vu3n_uswK3d1PH8rhta_N7DD5t_cBTjg",
-      "startingTier": "IRON",
-      "startingRank":"IV",
-      "startingLP": 0
+      "startingTier": "PLATINUM",
+      "startingRank":"III",
+      "startingLP": 97
     },
     {
       "name": "Harvey",
       "id": "nDZAGdyHky6RBrxbFxdtPltquTTfLnk2nfEB5m0MK5DrRgKz7Eq5aYT7ug0GjTPRI0wXHz0n2IJEVQ",
-      "startingTier": "IRON",
+      "startingTier": "GOLD",
       "startingRank":"IV",
-      "startingLP": 0
+      "startingLP": 8
     },
     {
       "name": "Jack",
       "id": "6kx1LGGsl-qkO4sm5ZsaAHFHS1VHFxb6NCazh-yHvEpgH7BGE-STRYxQfoPKsHlcgOGasMBqF0YUMg",
-      "startingTier": "IRON",
-      "startingRank":"IV",
-      "startingLP": 0
+      "startingTier": "SILVER",
+      "startingRank":"III",
+      "startingLP": 97
     },
     {
       "name": "Alfie",
       "id": "CRiItQM8C3nUvI8rG3Jn_MbqypZJ1uch4oeEya6bVzpDG2C4n6LLZvCMJgQDXuFhKOYW16GIWzV90w",
       "startingTier": "IRON",
-      "startingRank":"IV",
+      "startingRank":"II",
       "startingLP": 0
     },
     {
       "name": "Harrison",
       "id": "5NHYOowj53g-cNh2OfxCBXU1NM8-_HhPPRPAnl4XhaF1DAA8ix1jPmNF_l0h05CSuH2HA0dsWogImQ",
-      "startingTier": "IRON",
-      "startingRank":"IV",
-      "startingLP": 0
+      "startingTier": "SILVER",
+      "startingRank":"II",
+      "startingLP": 97
     },
     {
       "name": "Jordan",
       "id": "xOpaOGKc3TT0giREUqE5ddNrDWtHTB7wnL6HoQALRkJVHKCiBtCbXOtkyLDK86WPRMpviIQwvw9Kzg",
-      "startingTier": "IRON",
-      "startingRank":"IV",
-      "startingLP": 0
+      "startingTier": "GOLD",
+      "startingRank":"II",
+      "startingLP": 51
     },
     {
       "name": "Michael",
       "id": "QGsR03nVY5rjRvBlhmlcwvXUJpfFUdanx50tv20aKNhQxwCwpGmK_1PU_F7kbaDvCF70EVYSPE10jQ",
-      "startingTier": "IRON",
-      "startingRank":"IV",
-      "startingLP": 0
+      "startingTier": "BRONZE",
+      "startingRank":"I",
+      "startingLP": 40
     }
 
   ]
