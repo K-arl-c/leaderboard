@@ -28,12 +28,10 @@ const Leaderboard = () => {
     useEffect(() => {
         const fetchAllUserData = async () => {
             try {
-                const apiKey = process.env.REACT_APP_API_KEY;
-
                 const data = await Promise.all(
                     users.map(async (user) => {
                         const res = await fetch(
-                            `https://euw1.api.riotgames.com/lol/league/v4/entries/by-puuid/${user.id}?api_key=${apiKey}`
+                            `/.netlify/functions/riotApi?puuid=${user.id}`
                         );
 
                         if (!res.ok) {
