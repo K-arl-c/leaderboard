@@ -123,6 +123,7 @@ const Leaderboard = () => {
                             user.accountName
                         )}`}
                         target="_blank"
+                        rel="noreferrer"
                     >
                         {user.name}
                     </a>
