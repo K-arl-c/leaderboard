@@ -1,5 +1,3 @@
-import fetch from "node-fetch";
-
 export async function handler(event, context) {
     const apiKey = process.env.REACT_APP_API_KEY;
 
