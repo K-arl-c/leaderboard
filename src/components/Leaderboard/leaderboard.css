@@ -64,12 +64,12 @@ h1{
 .loading-text-container{
     text-align: center;
     padding: 100px;
-    position: relative;
+    /* position: relative; */
     overflow: hidden;
 }
 
 .loading-text {
-    font-size: 6rem;
+    font-size: 26px;
     font-weight: bold;
     text-transform: uppercase;
     color: #fff;
@@ -82,7 +82,7 @@ h1{
 
 .loading-text::before,
 .loading-text::after {
-    content: 'LOADING';
+    /* content: 'LOADING'; */
     position: absolute;
     top: 0;
     left: 0;
