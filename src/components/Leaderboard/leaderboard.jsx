@@ -2,28 +2,28 @@ import "./leaderboard.css";
 import users from "../../data/users.json";
 import { useEffect, useState } from "react";
 
+const tierMap = {
+    IRON: 0,
+    BRONZE: 400,
+    SILVER: 800,
+    GOLD: 1200,
+    PLATINUM: 1600,
+    EMERALD: 2000,
+    DIAMOND: 2400,
+    MASTER: 2800,
+    GRANDMASTER: 3200,
+    CHALLENGER: 3600,
+};
+
+const rankMap = {
+    IV: 0,
+    III: 100,
+    II: 200,
+    I: 300,
+};
+
 const Leaderboard = () => {
     const [results, setResults] = useState([]);
-
-    const tierMap = {
-        IRON: 0,
-        BRONZE: 400,
-        SILVER: 800,
-        GOLD: 1200,
-        PLATINUM: 1600,
-        EMERALD: 2000,
-        DIAMOND: 2400,
-        MASTER: 2800,
-        GRANDMASTER: 3200,
-        CHALLENGER: 3600,
-    };
-
-    const rankMap = {
-        IV: 0,
-        III: 100,
-        II: 200,
-        I: 300,
-    };
 
     useEffect(() => {
         const fetchAllUserData = async () => {
