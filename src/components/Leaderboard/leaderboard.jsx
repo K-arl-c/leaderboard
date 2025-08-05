@@ -24,9 +24,11 @@ const rankMap = {
 
 const Leaderboard = () => {
     const [results, setResults] = useState([]);
+    const [loading, setLoading] = useState(false);
 
     useEffect(() => {
         const fetchAllUserData = async () => {
+            setLoading(true);
             try {
                 const data = await Promise.all(
                     users.map(async (user) => {
@@ -92,6 +94,7 @@ const Leaderboard = () => {
                 }));
 
                 setResults(finalData);
+                setLoading(false);
             } catch (err) {
                 console.error("API fetch failed:", err);
             }
@@ -137,6 +140,11 @@ const Leaderboard = () => {
             <div className="player-standings">
                 {results.map((user, index) => leaderboardItem(user, index))}
             </div>
+            {loading && (
+                <div className="loading-text-container">
+                    <p className="loading-text">LOADING LEADERBOARD...</p>
+                </div>
+            )}
         </div>
     );
 };
