@@ -125,7 +125,13 @@ const Leaderboard = () => {
                         <div>{soloQueue.totalLPGained}</div>
                     </div>
                     <div>
-                        {soloQueue.wins}W / {soloQueue.losses}L
+                        {soloQueue.wins}W / {soloQueue.losses}L -{" "}
+                        {(
+                            (soloQueue.wins /
+                                (soloQueue.losses + soloQueue.wins)) *
+                            100
+                        ).toFixed(1)}
+                        %
                     </div>
                 </div>
             </div>
