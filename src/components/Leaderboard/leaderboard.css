@@ -1,0 +1,48 @@
+.leaderboard-container{
+    width: 50%;
+    /* height: 100vh; */
+    background-color: #545454;
+    border-radius: 12px;
+    display: flex;
+    /* align-items: center; */
+    margin-top: 24px;
+    margin-bottom: 24px;
+    padding-top: 24px;
+    padding-bottom: 30px;
+    flex-direction: column; 
+    color: white;
+    
+    
+}
+
+h1{
+    text-align: center;
+}
+
+.leaderboard-item{
+    text-align: left;
+    margin-left: 15%;
+    margin-right: 15%;
+    
+}
+
+.lp-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pos1{
+    color: #FFD700;
+}
+
+.pos2 {
+    color: #C0C0C0;
+}
+
+.pos3 {
+    color: #CD7F32;
+}
+
+.test{
+    color: black;
+}
