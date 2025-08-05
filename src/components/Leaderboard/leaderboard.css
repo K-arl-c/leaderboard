@@ -128,3 +128,12 @@ h1{
     }
 }
 
+a{
+color: inherit;
+text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: inherit;
+}

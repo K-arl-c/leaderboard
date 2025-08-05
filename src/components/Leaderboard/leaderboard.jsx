@@ -70,7 +70,11 @@ const Leaderboard = () => {
                             };
                         });
 
-                        return { name: user.name, data: enhancedData };
+                        return {
+                            name: user.name,
+                            data: enhancedData,
+                            accountName: user.accountName,
+                        };
                     })
                 );
 
@@ -113,7 +117,15 @@ const Leaderboard = () => {
         return (
             <div key={index} className="leaderboard-item">
                 <h3 className={`pos${user.position}`}>
-                    #{user.position} - {user.name}
+                    #{user.position} -{" "}
+                    <a
+                        href={`https://www.deeplol.gg/summoner/euw/${encodeURIComponent(
+                            user.accountName
+                        )}`}
+                        target="_blank"
+                    >
+                        {user.name}
+                    </a>
                     {user.position === 1 && " 👑"}
                 </h3>
                 <div>
