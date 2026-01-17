@@ -3,16 +3,16 @@
       "name": "Karl",
       "id": "M7dNC2aCAjSxG7FXPaoKXrvc5VbAPS0vMZRmO48mI9ryU7Vu3n_uswK3d1PH8rhta_N7DD5t_cBTjg",
       "startingTier": "PLATINUM",
-      "startingRank":"III",
-      "startingLP": 97,
+      "startingRank":"I",
+      "startingLP": 55,
       "accountName": "Karl-Karl"
     },
     {
       "name": "Harvey",
       "id": "nDZAGdyHky6RBrxbFxdtPltquTTfLnk2nfEB5m0MK5DrRgKz7Eq5aYT7ug0GjTPRI0wXHz0n2IJEVQ",
-      "startingTier": "GOLD",
-      "startingRank":"IV",
-      "startingLP": 8,
+      "startingTier": "SILVER",
+      "startingRank":"II",
+      "startingLP": 10,
       "accountName": "Harvavelli-EUW"
       
     },
@@ -35,17 +35,17 @@
     {
       "name": "Harrison",
       "id": "5NHYOowj53g-cNh2OfxCBXU1NM8-_HhPPRPAnl4XhaF1DAA8ix1jPmNF_l0h05CSuH2HA0dsWogImQ",
-      "startingTier": "SILVER",
-      "startingRank":"II",
-      "startingLP": 97,
+      "startingTier": "GOLD",
+      "startingRank":"IV",
+      "startingLP": 10,
       "accountName": "liamneeson-thad"
     },
     {
       "name": "Jordan",
       "id": "xOpaOGKc3TT0giREUqE5ddNrDWtHTB7wnL6HoQALRkJVHKCiBtCbXOtkyLDK86WPRMpviIQwvw9Kzg",
       "startingTier": "GOLD",
-      "startingRank":"II",
-      "startingLP": 51,
+      "startingRank":"IV",
+      "startingLP": 97,
       "accountName": "jordanthedon-EUW"
     },
     {
