@@ -27,9 +27,9 @@
     {
       "name": "Alfie",
       "id": "CRiItQM8C3nUvI8rG3Jn_MbqypZJ1uch4oeEya6bVzpDG2C4n6LLZvCMJgQDXuFhKOYW16GIWzV90w",
-      "startingTier": "IRON",
-      "startingRank":"II",
-      "startingLP": 0,
+      "startingTier": "BRONZE",
+      "startingRank":"I",
+      "startingLP": 97,
       "accountName": "alfie-flv"
     },
     {
@@ -51,9 +51,9 @@
     {
       "name": "Michael",
       "id": "QGsR03nVY5rjRvBlhmlcwvXUJpfFUdanx50tv20aKNhQxwCwpGmK_1PU_F7kbaDvCF70EVYSPE10jQ",
-      "startingTier": "BRONZE",
-      "startingRank":"I",
-      "startingLP": 40,
+      "startingTier": "SILVER",
+      "startingRank":"IV",
+      "startingLP": 0,
       "accountName": "mycool-gigg"
     }
 
